@@ -1,0 +1,5 @@
+seq,enabled,artifact_path,artifact_kind,output_path,source_path,target_table,authority_zone,purpose
+10,Y,sql/001_create_example_people.sql,SQL,,,,example,Create example table
+20,Y,spec/002_people_load.csv,LOAD_CSV,,data/people.csv,EXAMPLE_PEOPLE,example,Load sample people
+30,Y,verify/003_verify_people.sql,VERIFY,,,,example,Verify expected rows
+40,Y,export/004_export_people.sql,EXPORT,output/people_export.csv,,,example,Export loaded people

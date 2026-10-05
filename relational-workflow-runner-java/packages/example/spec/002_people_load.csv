@@ -1,0 +1,4 @@
+source_header,column_name,required
+person_id,PERSON_ID,Y
+full_name,FULL_NAME,Y
+email,EMAIL,N
